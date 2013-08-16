@@ -58,5 +58,5 @@ Crontab
 Sample cron to run backup every day at 23.00.
 
 ```
-* 23 * * * python ~/scripts/backup.py
+0 23 * * * python ~/scripts/backup.py
 ```
